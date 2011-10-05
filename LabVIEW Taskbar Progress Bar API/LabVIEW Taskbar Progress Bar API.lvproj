@@ -68,6 +68,7 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Windows7Taskbar.dll" Type="Document" URL="../../../../../../nlvanzwk/Desktop/labview-taskbar-progress-api/trunk/LabVIEW Taskbar Progress Bar API/Windows7Taskbar.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="VIPM Source Distribution" Type="Source Distribution">
@@ -82,7 +83,7 @@
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/VIPM Source Distribution</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/LabVIEW Taskbar Progress Bar API/VIPM Source Distribution</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/VIPM Source Distribution</Property>
@@ -90,7 +91,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/VIPM Source Distribution/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A85A05B6-34C4-4977-BFA4-5721F2A289E3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{50F721E5-72B4-4D59-9B2F-5BEA6A1D9A84}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TaskbarProgressAPI.lvlib</Property>
@@ -152,9 +153,9 @@
 				<Property Name="Source[7].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[7].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[7].properties[2].value" Type="Bool">true</Property>
+				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
