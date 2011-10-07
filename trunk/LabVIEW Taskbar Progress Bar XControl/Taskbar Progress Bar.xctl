@@ -12,19 +12,19 @@
 </Property>
 	<Item Name="Abilities" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="PB Init.vi" Type="Ability VI" URL="../Abilities/PB Init.vi">
+		<Item Name="TPB Init.vi" Type="Ability VI" URL="../Abilities/TPB Init.vi">
 			<Property Name="NI.XItem.Name" Type="Str">Init</Property>
 		</Item>
-		<Item Name="PB Data.ctl" Type="Ability VI" URL="../Abilities/PB Data.ctl">
+		<Item Name="TPB Data.ctl" Type="Ability VI" URL="../Abilities/TPB Data.ctl">
 			<Property Name="NI.XItem.Name" Type="Str">Data</Property>
 		</Item>
-		<Item Name="PB Facade.vi" Type="Ability VI" URL="../Abilities/PB Facade.vi">
+		<Item Name="TPB Facade.vi" Type="Ability VI" URL="../Abilities/TPB Facade.vi">
 			<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
 		</Item>
-		<Item Name="PB State.ctl" Type="Ability VI" URL="../Abilities/PB State.ctl">
+		<Item Name="TPB State.ctl" Type="Ability VI" URL="../Abilities/TPB State.ctl">
 			<Property Name="NI.XItem.Name" Type="Str">State</Property>
 		</Item>
-		<Item Name="PB Uninit.vi" Type="Ability VI" URL="../Abilities/PB Uninit.vi">
+		<Item Name="TPB Uninit.vi" Type="Ability VI" URL="../Abilities/TPB Uninit.vi">
 			<Property Name="NI.XItem.Name" Type="Str">UnInit</Property>
 		</Item>
 	</Item>
@@ -35,6 +35,7 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Finish.vi" Type="Method VI" URL="../Methods/Finish.vi"/>
 		<Item Name="Increment.vi" Type="Method VI" URL="../Methods/Increment.vi"/>
+		<Item Name="Set Value.vi" Type="Method VI" URL="../Methods/Set Value.vi"/>
 		<Item Name="Pause.vi" Type="Method VI" URL="../Methods/Pause.vi"/>
 		<Item Name="Error.vi" Type="Method VI" URL="../Methods/Error.vi"/>
 		<Item Name="Initialize.vi" Type="Method VI" URL="../Methods/Initialize.vi"/>
