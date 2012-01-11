@@ -63,6 +63,64 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="VIPM Source Distribution" Type="Source Distribution">
+				<Property Name="Bld_buildCacheID" Type="Str">{77505153-66CE-438D-97C6-6D05F282B3E0}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">VIPM Source Distribution</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/Users/nlvanzwk/Documents/LabVIEW Data/InstCache</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/VIPM Source Distribution</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3262D698-2D52-4D9E-9657-2A3F7B46F640}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/VIPM Source Distribution</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/VIPM Source Distribution/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">SubVIs</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/VIPM Source Distribution/_SubVIs</Property>
+				<Property Name="Destination[3].destName" Type="Str">TypeDefs</Property>
+				<Property Name="Destination[3].path" Type="Path">../builds/NI_AB_PROJECTNAME/VIPM Source Distribution/_TypeDefs</Property>
+				<Property Name="Destination[4].destName" Type="Str">Examples</Property>
+				<Property Name="Destination[4].path" Type="Path">../builds/NI_AB_PROJECTNAME/VIPM Source Distribution/Examples</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1C7911C1-ACCF-4BED-A175-CE275A89A8C0}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Example - Basic.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Example - Method API.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Example - Advanced.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Taskbar Progress Bar.xctl</Property>
+				<Property Name="Source[4].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Taskbar Progress Bar.xctl/SubVIs</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Taskbar Progress Bar.xctl/TypeDef</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
